@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head th:insert="fragments :: headerfiles">
+
+</head>
+<body>
+    <header th:insert="fragments :: nav"></header>
+
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron">
+                <h1 class="display-4">Bienvenido</h1>
+                <p class="lead">Estas a punto de entrar al sistema, por favor dirigite a la parte superiror izquierda y
+                    de click en login.</p>
+                <hr class="my-4">
+                <p>Recuerda."El único modo de hacer un gran trabajo es Amar lo que Haces." Stebe Jobs.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    <!--<footer th:insert="fragments :: footer"></footer>-->
+
+    <div th:insert="fragments :: scripts"></div>
+</body>
+</html>
